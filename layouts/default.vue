@@ -11,6 +11,6 @@
 
 <style>
   body {
-    @apply bg-gray-950 text-slate-400 font-mono;
+    @apply bg-gray-950 text-slate-400 font-mono text-green-600;
   }
 </style>
