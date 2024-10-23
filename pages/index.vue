@@ -1,20 +1,20 @@
 <script setup lang="ts">
+const { locale } = useI18n()
 </script>
 
 <template>
   <div class="flex-row md:flex items-center justify-around">
-    <div>
+    <div class="pl-0 md:pl-8">
       <div class="policy">
         <p>Create.</p>
         <p>Develop.</p>
         <p>Fun!</p>
       </div>
-      <div>
-        <p></p>
+      <div class="mt-4 text-xl text-center md:text-left w-full md:w-1/2 px-4 md:px-0">
+        <p>{{ $t('index.introduction') }}</p>
       </div>
     </div>
     <div>
-      hgehoge
     </div>
   </div>
 
