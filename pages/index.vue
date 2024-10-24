@@ -14,7 +14,8 @@ const { locale } = useI18n()
         <p>{{ $t('index.introduction') }}</p>
       </div>
     </div>
-    <div>
+    <div class="ml-0 mr-auto">
+      <NuxtImg src="/odile.png" />
     </div>
   </div>
 
